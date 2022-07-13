@@ -1,0 +1,266 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #00aca9;
+  }
+
+footer {
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-color: #4C9900;
+      }
+
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+iframe{
+    width: 90%;
+}
+
+form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#bLogin{
+    background-color: #009999; /* Aqua */
+    color: white;
+    padding: 16px 32px;
+    width: 100%;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+#bLogin:hover {
+    background-color: #FFFFFF;
+    color: black;
+  }
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contenedorLogin{
+    border-radius: 25px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+    background-color: white;
+}
+
+#contenedorRegistro{
+    text-align: center;
+}
+
+#registro{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.Bienvenida{
+    text-align: center;
+}
+
+.infoReg{
+    border-radius: 25px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.campo{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#banner{
+    width: 100%;
+    display: block;
+}
+
+nav{
+    background-color: #4C9900; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    width: auto;
+    height: auto;
+    display: flex; /*se coloco flex para que tuviera el efecto horizontal y mantuviera una distancia uniforme */
+}
+
+.menu{
+    text-align: center;
+    flex-grow: 1; 
+}
+
+.menuT{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: transform .2s;
+}
+
+.menuT:hover {
+    transform: scale(1.4);
+    color: black;
+  }
+
+a{
+    text-decoration: none;
+}
+
+#contenedorHome{
+    background-color: #4a2c64; 
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 20px;
+}
+
+.noticia{
+    text-align: center;
+    flex-grow: 1;  /* este es para darle espacios a las opciones de la barra del noticiero */
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #99CCFF;
+}
+
+.descrip{
+    text-align: left;
+    margin: 10px;
+}
+
+#tablaP{
+    background-color: white;
+    border: black 4px solid;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    
+}
+
+tr,td {
+    border: black 2px solid ;
+    width: 35px;
+    color:black;
+}
+tr td a {
+    color: black;
+}
+
+.vacio{
+    visibility: hidden;
+}
+
+.grupo1{
+    background-color: mediumorchid;
+    text-align: center;
+}
+
+.grupo2{
+    background-color: sandybrown;
+    text-align: center;
+}
+.grupo3{
+    background-color: bisque;
+    text-align: center;
+}
+.grupo4{
+    background-color: yellow;
+    text-align: center;
+}
+.grupo5{
+    background-color: lime;
+    text-align: center;
+}
+.grupo6{
+    background-color:antiquewhite;
+    text-align: center;
+}
+.grupo7{
+    background-color:deeppink;
+    text-align: center;
+}
+.grupo8{
+    background-color: aqua;
+    text-align: center;
+}
+.grupo9{
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.elemento:hover{
+    background-color: #031FA2 ;
+    color: white;
+    transform: scale(1.4);
+}
+.elemento{
+    transition: transform .2s;
+}
+
+
+.foto{
+    width: 250px;
+    height: 300px;
+}
+#contenedorContac{
+    background-color: #CCCC00; 
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    display: flex;
+    padding: 20px;
+
+}
+.integrante{
+    text-align: center;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+
+.centro{
+    text-align: center;
+}
+
+.redLogo{
+    width: 40px;
+}
+
+.regreso{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    background-color: #999900;
+    border: 2px solid black;
+    padding: 1px;
+    margin-top:20px ;
+    display: inline-block;
+}
+.regreso:hover{
+    color: black;
+}
+
+#error{
+    color: red;
+    text-decoration: underline;
+}

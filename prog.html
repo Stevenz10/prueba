@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro en programacion</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <section>
+        <img src="logo.png" class = "logo">
+        <div class="Bienvenida">
+            <h1>REGISTRO EN EL CURSO DE PROGRAMACION</h1>
+        </div>
+        <div class= "infoReg">
+            <form action="prog.jsp" method="post" ">
+                <label for="nombre"><b>Nombre</b></label>
+                <input type="text" placeholder="Introduzca su nombre" id="nombre" name=" nombre" class="campo" required>
+                <label for="apellido"><b>Apellido</b></label>
+                <input type="text" placeholder="Introduzca su apellido" id="apellido" name="apellido" class="campo" required>
+                <label for="fecha"><b>Fecha</b></label>
+                <select name="fecha" id="fecha">
+                    <option value="20/7">20 de Julio</option>
+                    <option value="24/10">24 de Octubre</option>
+                    <option value="14/11">14 de Noviembre</option>
+                </select>
+                
+                <button type="submit" id = 'bLogin'>Registrarse</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        
+    </footer>
+</body>
+</html>
